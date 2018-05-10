@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEBA11E7AB483D75A04E4380 /* libPods-ZHMVVMRACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E43E33480CBB26DD7F68B9CC /* libPods-ZHMVVMRACDemo.a */; };
+		EB564ACA20A4248800CB54AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AC920A4248800CB54AE /* AppDelegate.m */; };
+		EB564AD020A4248800CB54AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB564ACE20A4248800CB54AE /* Main.storyboard */; };
+		EB564AD220A4248900CB54AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB564AD120A4248900CB54AE /* Assets.xcassets */; };
+		EB564AD520A4248900CB54AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB564AD320A4248900CB54AE /* LaunchScreen.storyboard */; };
+		EB564AD820A4248A00CB54AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AD720A4248A00CB54AE /* main.m */; };
+		EB564AEF20A42ED300CB54AE /* ZHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AEE20A42ED300CB54AE /* ZHBaseViewController.m */; };
+		EB564AF220A42EF200CB54AE /* ZHBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AF120A42EF200CB54AE /* ZHBaseView.m */; };
+		EB564AF520A42F1700CB54AE /* ZHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AF420A42F1700CB54AE /* ZHBaseModel.m */; };
+		EB564AF820A42F3000CB54AE /* ZHBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AF720A42F3000CB54AE /* ZHBaseTableViewCell.m */; };
+		EB564AFB20A42F4C00CB54AE /* ZHBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AFA20A42F4C00CB54AE /* ZHBaseCollectionViewCell.m */; };
+		EB564AFE20A42F7800CB54AE /* ZHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AFD20A42F7800CB54AE /* ZHBaseNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		522A1DFF81323138A045C4E2 /* Pods-ZHMVVMRACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHMVVMRACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHMVVMRACDemo/Pods-ZHMVVMRACDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6BE87208DF9C18305D50363A /* Pods-ZHMVVMRACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHMVVMRACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHMVVMRACDemo/Pods-ZHMVVMRACDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E43E33480CBB26DD7F68B9CC /* libPods-ZHMVVMRACDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHMVVMRACDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB564AC520A4248800CB54AE /* ZHMVVMRACDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHMVVMRACDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB564AC820A4248800CB54AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB564AC920A4248800CB54AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB564ACF20A4248800CB54AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB564AD120A4248900CB54AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB564AD420A4248900CB54AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB564AD620A4248A00CB54AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB564AD720A4248A00CB54AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB564AED20A42ED300CB54AE /* ZHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBaseViewController.h; sourceTree = "<group>"; };
+		EB564AEE20A42ED300CB54AE /* ZHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBaseViewController.m; sourceTree = "<group>"; };
+		EB564AF020A42EF200CB54AE /* ZHBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBaseView.h; sourceTree = "<group>"; };
+		EB564AF120A42EF200CB54AE /* ZHBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBaseView.m; sourceTree = "<group>"; };
+		EB564AF320A42F1700CB54AE /* ZHBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBaseModel.h; sourceTree = "<group>"; };
+		EB564AF420A42F1700CB54AE /* ZHBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBaseModel.m; sourceTree = "<group>"; };
+		EB564AF620A42F3000CB54AE /* ZHBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBaseTableViewCell.h; sourceTree = "<group>"; };
+		EB564AF720A42F3000CB54AE /* ZHBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBaseTableViewCell.m; sourceTree = "<group>"; };
+		EB564AF920A42F4C00CB54AE /* ZHBaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		EB564AFA20A42F4C00CB54AE /* ZHBaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		EB564AFC20A42F7800CB54AE /* ZHBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBaseNavigationController.h; sourceTree = "<group>"; };
+		EB564AFD20A42F7800CB54AE /* ZHBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBaseNavigationController.m; sourceTree = "<group>"; };
+		EB564B0020A433DB00CB54AE /* Notification_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notification_define.h; sourceTree = "<group>"; };
+		EB564B0120A4343800CB54AE /* String_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = String_define.h; sourceTree = "<group>"; };
+		EB564B0220A4348800CB54AE /* Network_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Network_define.h; sourceTree = "<group>"; };
+		EB564B0320A4349B00CB54AE /* Common_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_define.h; sourceTree = "<group>"; };
+		EB564B0420A4353000CB54AE /* Config_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config_define.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB564AC220A4248800CB54AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBA11E7AB483D75A04E4380 /* libPods-ZHMVVMRACDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C24358B0CF792012E0E0512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BE87208DF9C18305D50363A /* Pods-ZHMVVMRACDemo.debug.xcconfig */,
+				522A1DFF81323138A045C4E2 /* Pods-ZHMVVMRACDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB2F37277C6B0AD757738753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E43E33480CBB26DD7F68B9CC /* libPods-ZHMVVMRACDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB564ABC20A4248800CB54AE = {
+			isa = PBXGroup;
+			children = (
+				EB564AC720A4248800CB54AE /* ZHMVVMRACDemo */,
+				EB564AC620A4248800CB54AE /* Products */,
+				6C24358B0CF792012E0E0512 /* Pods */,
+				BB2F37277C6B0AD757738753 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB564AC620A4248800CB54AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB564AC520A4248800CB54AE /* ZHMVVMRACDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB564AC720A4248800CB54AE /* ZHMVVMRACDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EB564AE620A42C5E00CB54AE /* AppDelegate */,
+				EB564AE020A42B3300CB54AE /* Base */,
+				EB564AE220A42BA000CB54AE /* Class */,
+				EB564AE520A42C5700CB54AE /* Tools */,
+				EB564AE420A42BD700CB54AE /* Macro */,
+				EB564AE320A42BCF00CB54AE /* Resource */,
+				EB564AE120A42B4800CB54AE /* Vendors */,
+				EB564ACE20A4248800CB54AE /* Main.storyboard */,
+				EB564AD120A4248900CB54AE /* Assets.xcassets */,
+				EB564AD320A4248900CB54AE /* LaunchScreen.storyboard */,
+				EB564AD620A4248A00CB54AE /* Info.plist */,
+				EB564AD720A4248A00CB54AE /* main.m */,
+			);
+			path = ZHMVVMRACDemo;
+			sourceTree = "<group>";
+		};
+		EB564AE020A42B3300CB54AE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EB564AF020A42EF200CB54AE /* ZHBaseView.h */,
+				EB564AF120A42EF200CB54AE /* ZHBaseView.m */,
+				EB564AF320A42F1700CB54AE /* ZHBaseModel.h */,
+				EB564AF420A42F1700CB54AE /* ZHBaseModel.m */,
+				EB564AF620A42F3000CB54AE /* ZHBaseTableViewCell.h */,
+				EB564AF720A42F3000CB54AE /* ZHBaseTableViewCell.m */,
+				EB564AED20A42ED300CB54AE /* ZHBaseViewController.h */,
+				EB564AEE20A42ED300CB54AE /* ZHBaseViewController.m */,
+				EB564AF920A42F4C00CB54AE /* ZHBaseCollectionViewCell.h */,
+				EB564AFA20A42F4C00CB54AE /* ZHBaseCollectionViewCell.m */,
+				EB564AFC20A42F7800CB54AE /* ZHBaseNavigationController.h */,
+				EB564AFD20A42F7800CB54AE /* ZHBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EB564AE120A42B4800CB54AE /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		EB564AE220A42BA000CB54AE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EB564AE720A42DE200CB54AE /* Home */,
+				EB564AE820A42DEA00CB54AE /* My */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		EB564AE320A42BCF00CB54AE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EB564B0520A4365800CB54AE /* Image */,
+				EB564B0620A4366300CB54AE /* Vedio */,
+				EB564B0720A4367300CB54AE /* Other */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EB564AE420A42BD700CB54AE /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				EB564B0020A433DB00CB54AE /* Notification_define.h */,
+				EB564B0120A4343800CB54AE /* String_define.h */,
+				EB564B0220A4348800CB54AE /* Network_define.h */,
+				EB564B0320A4349B00CB54AE /* Common_define.h */,
+				EB564B0420A4353000CB54AE /* Config_define.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		EB564AE520A42C5700CB54AE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EB564AFF20A42FC900CB54AE /* Request */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EB564AE620A42C5E00CB54AE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EB564AC820A4248800CB54AE /* AppDelegate.h */,
+				EB564AC920A4248800CB54AE /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EB564AE720A42DE200CB54AE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EB564AEC20A42E2700CB54AE /* Controller */,
+				EB564AEB20A42E2100CB54AE /* View */,
+				EB564AEA20A42E1700CB54AE /* ViewModel */,
+				EB564AE920A42DF200CB54AE /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EB564AE820A42DEA00CB54AE /* My */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		EB564AE920A42DF200CB54AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB564AEA20A42E1700CB54AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EB564AEB20A42E2100CB54AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB564AEC20A42E2700CB54AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB564AFF20A42FC900CB54AE /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		EB564B0520A4365800CB54AE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		EB564B0620A4366300CB54AE /* Vedio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vedio;
+			sourceTree = "<group>";
+		};
+		EB564B0720A4367300CB54AE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB564AC420A4248800CB54AE /* ZHMVVMRACDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB564ADB20A4248A00CB54AE /* Build configuration list for PBXNativeTarget "ZHMVVMRACDemo" */;
+			buildPhases = (
+				52875EA9DFE168EE6E933849 /* [CP] Check Pods Manifest.lock */,
+				EB564AC120A4248800CB54AE /* Sources */,
+				EB564AC220A4248800CB54AE /* Frameworks */,
+				EB564AC320A4248800CB54AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHMVVMRACDemo;
+			productName = ZHMVVMRACDemo;
+			productReference = EB564AC520A4248800CB54AE /* ZHMVVMRACDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB564ABD20A4248800CB54AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "向祖华";
+				TargetAttributes = {
+					EB564AC420A4248800CB54AE = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = EB564AC020A4248800CB54AE /* Build configuration list for PBXProject "ZHMVVMRACDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB564ABC20A4248800CB54AE;
+			productRefGroup = EB564AC620A4248800CB54AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB564AC420A4248800CB54AE /* ZHMVVMRACDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB564AC320A4248800CB54AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB564AD520A4248900CB54AE /* LaunchScreen.storyboard in Resources */,
+				EB564AD220A4248900CB54AE /* Assets.xcassets in Resources */,
+				EB564AD020A4248800CB54AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52875EA9DFE168EE6E933849 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHMVVMRACDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB564AC120A4248800CB54AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB564AFE20A42F7800CB54AE /* ZHBaseNavigationController.m in Sources */,
+				EB564AF520A42F1700CB54AE /* ZHBaseModel.m in Sources */,
+				EB564AFB20A42F4C00CB54AE /* ZHBaseCollectionViewCell.m in Sources */,
+				EB564AD820A4248A00CB54AE /* main.m in Sources */,
+				EB564AEF20A42ED300CB54AE /* ZHBaseViewController.m in Sources */,
+				EB564ACA20A4248800CB54AE /* AppDelegate.m in Sources */,
+				EB564AF820A42F3000CB54AE /* ZHBaseTableViewCell.m in Sources */,
+				EB564AF220A42EF200CB54AE /* ZHBaseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB564ACE20A4248800CB54AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB564ACF20A4248800CB54AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB564AD320A4248900CB54AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB564AD420A4248900CB54AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB564AD920A4248A00CB54AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB564ADA20A4248A00CB54AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB564ADC20A4248A00CB54AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE87208DF9C18305D50363A /* Pods-ZHMVVMRACDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWU92RE2A6;
+				INFOPLIST_FILE = ZHMVVMRACDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiangzuhua.ZHMVVMRACDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB564ADD20A4248A00CB54AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522A1DFF81323138A045C4E2 /* Pods-ZHMVVMRACDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWU92RE2A6;
+				INFOPLIST_FILE = ZHMVVMRACDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiangzuhua.ZHMVVMRACDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB564AC020A4248800CB54AE /* Build configuration list for PBXProject "ZHMVVMRACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB564AD920A4248A00CB54AE /* Debug */,
+				EB564ADA20A4248A00CB54AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB564ADB20A4248A00CB54AE /* Build configuration list for PBXNativeTarget "ZHMVVMRACDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB564ADC20A4248A00CB54AE /* Debug */,
+				EB564ADD20A4248A00CB54AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB564ABD20A4248800CB54AE /* Project object */;
+}

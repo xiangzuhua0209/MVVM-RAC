@@ -1,0 +1,5 @@
+platform:ios,'9.0'
+target 'ZHMVVMRACDemo' do
+pod 'ReactiveCocoa','~>2.5'
+pod 'AFNetworking', '~> 3.1.0'
+end
