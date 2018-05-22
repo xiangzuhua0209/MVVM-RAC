@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BEBA11E7AB483D75A04E4380 /* libPods-ZHMVVMRACDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E43E33480CBB26DD7F68B9CC /* libPods-ZHMVVMRACDemo.a */; };
+		C98A2D3887765F474422F972 /* Pods_ZHMVVMRACDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E127B71EFBE2253EC2EA2CA /* Pods_ZHMVVMRACDemo.framework */; };
+		EB33D0DF20B3F27B00117123 /* ZHBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33D0DE20B3F27B00117123 /* ZHBaseTabBarController.m */; };
+		EB33D0E320B3F37000117123 /* ZHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33D0E120B3F37000117123 /* ZHLoginViewController.m */; };
+		EB33D0E420B3F37000117123 /* ZHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB33D0E220B3F37000117123 /* ZHLoginViewController.xib */; };
 		EB564ACA20A4248800CB54AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AC920A4248800CB54AE /* AppDelegate.m */; };
 		EB564AD020A4248800CB54AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB564ACE20A4248800CB54AE /* Main.storyboard */; };
 		EB564AD220A4248900CB54AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB564AD120A4248900CB54AE /* Assets.xcassets */; };
@@ -22,9 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		522A1DFF81323138A045C4E2 /* Pods-ZHMVVMRACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHMVVMRACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHMVVMRACDemo/Pods-ZHMVVMRACDemo.release.xcconfig"; sourceTree = "<group>"; };
-		6BE87208DF9C18305D50363A /* Pods-ZHMVVMRACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHMVVMRACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHMVVMRACDemo/Pods-ZHMVVMRACDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E43E33480CBB26DD7F68B9CC /* libPods-ZHMVVMRACDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHMVVMRACDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2C1B6DA6CAF513965EA5B2 /* Pods-ZHMVVMRACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHMVVMRACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHMVVMRACDemo/Pods-ZHMVVMRACDemo.release.xcconfig"; sourceTree = "<group>"; };
+		85D73BDA6AED4C0B99DAB1FC /* Pods-ZHMVVMRACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHMVVMRACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHMVVMRACDemo/Pods-ZHMVVMRACDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9E127B71EFBE2253EC2EA2CA /* Pods_ZHMVVMRACDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHMVVMRACDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB33D0DC20B3EEEB00117123 /* Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.pch; sourceTree = "<group>"; };
+		EB33D0DD20B3F27B00117123 /* ZHBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBaseTabBarController.h; sourceTree = "<group>"; };
+		EB33D0DE20B3F27B00117123 /* ZHBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBaseTabBarController.m; sourceTree = "<group>"; };
+		EB33D0E020B3F37000117123 /* ZHLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHLoginViewController.h; sourceTree = "<group>"; };
+		EB33D0E120B3F37000117123 /* ZHLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHLoginViewController.m; sourceTree = "<group>"; };
+		EB33D0E220B3F37000117123 /* ZHLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZHLoginViewController.xib; sourceTree = "<group>"; };
 		EB564AC520A4248800CB54AE /* ZHMVVMRACDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHMVVMRACDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB564AC820A4248800CB54AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB564AC920A4248800CB54AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,26 +66,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEBA11E7AB483D75A04E4380 /* libPods-ZHMVVMRACDemo.a in Frameworks */,
+				C98A2D3887765F474422F972 /* Pods_ZHMVVMRACDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C24358B0CF792012E0E0512 /* Pods */ = {
+		41EBC79484F113F61C130AE0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6BE87208DF9C18305D50363A /* Pods-ZHMVVMRACDemo.debug.xcconfig */,
-				522A1DFF81323138A045C4E2 /* Pods-ZHMVVMRACDemo.release.xcconfig */,
+				85D73BDA6AED4C0B99DAB1FC /* Pods-ZHMVVMRACDemo.debug.xcconfig */,
+				6A2C1B6DA6CAF513965EA5B2 /* Pods-ZHMVVMRACDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BB2F37277C6B0AD757738753 /* Frameworks */ = {
+		E0B4EECDA2BC0A1F11A85274 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E43E33480CBB26DD7F68B9CC /* libPods-ZHMVVMRACDemo.a */,
+				9E127B71EFBE2253EC2EA2CA /* Pods_ZHMVVMRACDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,8 +95,8 @@
 			children = (
 				EB564AC720A4248800CB54AE /* ZHMVVMRACDemo */,
 				EB564AC620A4248800CB54AE /* Products */,
-				6C24358B0CF792012E0E0512 /* Pods */,
-				BB2F37277C6B0AD757738753 /* Frameworks */,
+				41EBC79484F113F61C130AE0 /* Pods */,
+				E0B4EECDA2BC0A1F11A85274 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,12 +136,14 @@
 				EB564AF420A42F1700CB54AE /* ZHBaseModel.m */,
 				EB564AF620A42F3000CB54AE /* ZHBaseTableViewCell.h */,
 				EB564AF720A42F3000CB54AE /* ZHBaseTableViewCell.m */,
-				EB564AED20A42ED300CB54AE /* ZHBaseViewController.h */,
-				EB564AEE20A42ED300CB54AE /* ZHBaseViewController.m */,
 				EB564AF920A42F4C00CB54AE /* ZHBaseCollectionViewCell.h */,
 				EB564AFA20A42F4C00CB54AE /* ZHBaseCollectionViewCell.m */,
+				EB564AED20A42ED300CB54AE /* ZHBaseViewController.h */,
+				EB564AEE20A42ED300CB54AE /* ZHBaseViewController.m */,
 				EB564AFC20A42F7800CB54AE /* ZHBaseNavigationController.h */,
 				EB564AFD20A42F7800CB54AE /* ZHBaseNavigationController.m */,
+				EB33D0DD20B3F27B00117123 /* ZHBaseTabBarController.h */,
+				EB33D0DE20B3F27B00117123 /* ZHBaseTabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -147,7 +158,7 @@
 		EB564AE220A42BA000CB54AE /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				EB564AE720A42DE200CB54AE /* Home */,
+				EB564AE720A42DE200CB54AE /* Login */,
 				EB564AE820A42DEA00CB54AE /* My */,
 			);
 			path = Class;
@@ -171,6 +182,7 @@
 				EB564B0220A4348800CB54AE /* Network_define.h */,
 				EB564B0320A4349B00CB54AE /* Common_define.h */,
 				EB564B0420A4353000CB54AE /* Config_define.h */,
+				EB33D0DC20B3EEEB00117123 /* Header.pch */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -192,7 +204,7 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		EB564AE720A42DE200CB54AE /* Home */ = {
+		EB564AE720A42DE200CB54AE /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				EB564AEC20A42E2700CB54AE /* Controller */,
@@ -200,7 +212,7 @@
 				EB564AEA20A42E1700CB54AE /* ViewModel */,
 				EB564AE920A42DF200CB54AE /* Model */,
 			);
-			path = Home;
+			path = Login;
 			sourceTree = "<group>";
 		};
 		EB564AE820A42DEA00CB54AE /* My */ = {
@@ -234,6 +246,9 @@
 		EB564AEC20A42E2700CB54AE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EB33D0E020B3F37000117123 /* ZHLoginViewController.h */,
+				EB33D0E120B3F37000117123 /* ZHLoginViewController.m */,
+				EB33D0E220B3F37000117123 /* ZHLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -273,10 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB564ADB20A4248A00CB54AE /* Build configuration list for PBXNativeTarget "ZHMVVMRACDemo" */;
 			buildPhases = (
-				52875EA9DFE168EE6E933849 /* [CP] Check Pods Manifest.lock */,
+				53A0599673704CAC7A06DC04 /* [CP] Check Pods Manifest.lock */,
 				EB564AC120A4248800CB54AE /* Sources */,
 				EB564AC220A4248800CB54AE /* Frameworks */,
 				EB564AC320A4248800CB54AE /* Resources */,
+				03A51021F421A32EF6BA7B8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB33D0E420B3F37000117123 /* ZHLoginViewController.xib in Resources */,
 				EB564AD520A4248900CB54AE /* LaunchScreen.storyboard in Resources */,
 				EB564AD220A4248900CB54AE /* Assets.xcassets in Resources */,
 				EB564AD020A4248800CB54AE /* Main.storyboard in Resources */,
@@ -333,7 +350,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		52875EA9DFE168EE6E933849 /* [CP] Check Pods Manifest.lock */ = {
+		03A51021F421A32EF6BA7B8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZHMVVMRACDemo/Pods-ZHMVVMRACDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHMVVMRACDemo/Pods-ZHMVVMRACDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53A0599673704CAC7A06DC04 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,8 +414,10 @@
 				EB564AFB20A42F4C00CB54AE /* ZHBaseCollectionViewCell.m in Sources */,
 				EB564AD820A4248A00CB54AE /* main.m in Sources */,
 				EB564AEF20A42ED300CB54AE /* ZHBaseViewController.m in Sources */,
+				EB33D0DF20B3F27B00117123 /* ZHBaseTabBarController.m in Sources */,
 				EB564ACA20A4248800CB54AE /* AppDelegate.m in Sources */,
 				EB564AF820A42F3000CB54AE /* ZHBaseTableViewCell.m in Sources */,
+				EB33D0E320B3F37000117123 /* ZHLoginViewController.m in Sources */,
 				EB564AF220A42EF200CB54AE /* ZHBaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,11 +556,12 @@
 		};
 		EB564ADC20A4248A00CB54AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BE87208DF9C18305D50363A /* Pods-ZHMVVMRACDemo.debug.xcconfig */;
+			baseConfigurationReference = 85D73BDA6AED4C0B99DAB1FC /* Pods-ZHMVVMRACDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWU92RE2A6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZHMVVMRACDemo/Macro/Header.pch";
 				INFOPLIST_FILE = ZHMVVMRACDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,11 +575,12 @@
 		};
 		EB564ADD20A4248A00CB54AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 522A1DFF81323138A045C4E2 /* Pods-ZHMVVMRACDemo.release.xcconfig */;
+			baseConfigurationReference = 6A2C1B6DA6CAF513965EA5B2 /* Pods-ZHMVVMRACDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWU92RE2A6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZHMVVMRACDemo/Macro/Header.pch";
 				INFOPLIST_FILE = ZHMVVMRACDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

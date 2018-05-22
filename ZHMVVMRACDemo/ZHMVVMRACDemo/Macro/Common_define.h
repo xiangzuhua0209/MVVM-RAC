@@ -130,7 +130,7 @@ alpha:1.0]
 #define kSystemVersion          ([[UIDevice currentDevice] systemVersion])
 
 // 当前语言
-#define CURRENTLANGUAGE         ([[NSLocale preferredLanguages] objectAtIndex:0])
+#define kCurrentLanguage        ([[NSLocale preferredLanguages] objectAtIndex:0])
 
 
 
