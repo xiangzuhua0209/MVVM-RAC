@@ -82,7 +82,7 @@
 #define RGBACOLOR(r, g, b, a)   [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 
 // RGB颜色转换（16进制->10进制）
-#define UIColorFromRGB(rgbValue)\
+#define COLORFROM0X(rgbValue)\
 \
 [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
@@ -133,7 +133,22 @@ alpha:1.0]
 #define kCurrentLanguage        ([[NSLocale preferredLanguages] objectAtIndex:0])
 
 
+/* ********************** 其他 ********************** */
 
+///SVP
+#define SHOW_SVP(title) \
+[SVProgressHUD showWithStatus:title];
+
+#define SHOW_ERROE(title) \
+[SVProgressHUD showErrorWithStatus:title];
+
+#define SHOW_SUCCESS(title) \
+[SVProgressHUD showSuccessWithStatus:title];
+
+#define DISMISS_SVP(time) \
+dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(time * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{ \
+[SVProgressHUD dismiss]; \
+});
 
 
 

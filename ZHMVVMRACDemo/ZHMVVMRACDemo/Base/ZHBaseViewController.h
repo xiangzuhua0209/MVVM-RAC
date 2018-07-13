@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class ZHBaseViewModel;
 @interface ZHBaseViewController : UIViewController
+@property(nonatomic,strong,readonly)ZHBaseViewModel *viewModel;
+@property(nonatomic,strong,readonly)UIPercentDrivenInteractiveTransition *interactivePopTransition;
+-(instancetype)initWithViewModel:(ZHBaseViewModel *)viewModel;
 
+-(void)bindViewModel;
 @end

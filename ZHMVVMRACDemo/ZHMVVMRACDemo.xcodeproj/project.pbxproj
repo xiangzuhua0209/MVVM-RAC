@@ -11,6 +11,9 @@
 		EB33D0DF20B3F27B00117123 /* ZHBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33D0DE20B3F27B00117123 /* ZHBaseTabBarController.m */; };
 		EB33D0E320B3F37000117123 /* ZHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33D0E120B3F37000117123 /* ZHLoginViewController.m */; };
 		EB33D0E420B3F37000117123 /* ZHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB33D0E220B3F37000117123 /* ZHLoginViewController.xib */; };
+		EB33D0E720B4052800117123 /* ZHBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33D0E620B4052800117123 /* ZHBaseViewModel.m */; };
+		EB33D0EA20B4055000117123 /* ZHLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33D0E920B4055000117123 /* ZHLoginViewModel.m */; };
+		EB33D0EE20B40A0C00117123 /* ZHViewModelNavigationImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33D0ED20B40A0C00117123 /* ZHViewModelNavigationImpl.m */; };
 		EB564ACA20A4248800CB54AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AC920A4248800CB54AE /* AppDelegate.m */; };
 		EB564AD020A4248800CB54AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB564ACE20A4248800CB54AE /* Main.storyboard */; };
 		EB564AD220A4248900CB54AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB564AD120A4248900CB54AE /* Assets.xcassets */; };
@@ -22,6 +25,8 @@
 		EB564AF820A42F3000CB54AE /* ZHBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AF720A42F3000CB54AE /* ZHBaseTableViewCell.m */; };
 		EB564AFB20A42F4C00CB54AE /* ZHBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AFA20A42F4C00CB54AE /* ZHBaseCollectionViewCell.m */; };
 		EB564AFE20A42F7800CB54AE /* ZHBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB564AFD20A42F7800CB54AE /* ZHBaseNavigationController.m */; };
+		EB96DEC520B6A4F500C24117 /* ZHTransitionFromVCToVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96DEC420B6A4F500C24117 /* ZHTransitionFromVCToVC.m */; };
+		EB96DEC820B6B7E500C24117 /* ZHNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96DEC720B6B7E500C24117 /* ZHNavigationControllerDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,13 @@
 		EB33D0E020B3F37000117123 /* ZHLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHLoginViewController.h; sourceTree = "<group>"; };
 		EB33D0E120B3F37000117123 /* ZHLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHLoginViewController.m; sourceTree = "<group>"; };
 		EB33D0E220B3F37000117123 /* ZHLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZHLoginViewController.xib; sourceTree = "<group>"; };
+		EB33D0E520B4052800117123 /* ZHBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBaseViewModel.h; sourceTree = "<group>"; };
+		EB33D0E620B4052800117123 /* ZHBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBaseViewModel.m; sourceTree = "<group>"; };
+		EB33D0E820B4055000117123 /* ZHLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHLoginViewModel.h; sourceTree = "<group>"; };
+		EB33D0E920B4055000117123 /* ZHLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHLoginViewModel.m; sourceTree = "<group>"; };
+		EB33D0EB20B4086900117123 /* ZHViewModelServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHViewModelServices.h; sourceTree = "<group>"; };
+		EB33D0EC20B40A0C00117123 /* ZHViewModelNavigationImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHViewModelNavigationImpl.h; sourceTree = "<group>"; };
+		EB33D0ED20B40A0C00117123 /* ZHViewModelNavigationImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHViewModelNavigationImpl.m; sourceTree = "<group>"; };
 		EB564AC520A4248800CB54AE /* ZHMVVMRACDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHMVVMRACDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB564AC820A4248800CB54AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB564AC920A4248800CB54AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,6 +71,10 @@
 		EB564B0220A4348800CB54AE /* Network_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Network_define.h; sourceTree = "<group>"; };
 		EB564B0320A4349B00CB54AE /* Common_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_define.h; sourceTree = "<group>"; };
 		EB564B0420A4353000CB54AE /* Config_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config_define.h; sourceTree = "<group>"; };
+		EB96DEC320B6A4F500C24117 /* ZHTransitionFromVCToVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTransitionFromVCToVC.h; sourceTree = "<group>"; };
+		EB96DEC420B6A4F500C24117 /* ZHTransitionFromVCToVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTransitionFromVCToVC.m; sourceTree = "<group>"; };
+		EB96DEC620B6B7E500C24117 /* ZHNavigationControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		EB96DEC720B6B7E500C24117 /* ZHNavigationControllerDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNavigationControllerDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +150,8 @@
 				EB564AF120A42EF200CB54AE /* ZHBaseView.m */,
 				EB564AF320A42F1700CB54AE /* ZHBaseModel.h */,
 				EB564AF420A42F1700CB54AE /* ZHBaseModel.m */,
+				EB33D0E520B4052800117123 /* ZHBaseViewModel.h */,
+				EB33D0E620B4052800117123 /* ZHBaseViewModel.m */,
 				EB564AF620A42F3000CB54AE /* ZHBaseTableViewCell.h */,
 				EB564AF720A42F3000CB54AE /* ZHBaseTableViewCell.m */,
 				EB564AF920A42F4C00CB54AE /* ZHBaseCollectionViewCell.h */,
@@ -144,6 +162,9 @@
 				EB564AFD20A42F7800CB54AE /* ZHBaseNavigationController.m */,
 				EB33D0DD20B3F27B00117123 /* ZHBaseTabBarController.h */,
 				EB33D0DE20B3F27B00117123 /* ZHBaseTabBarController.m */,
+				EB33D0EB20B4086900117123 /* ZHViewModelServices.h */,
+				EB33D0EC20B40A0C00117123 /* ZHViewModelNavigationImpl.h */,
+				EB33D0ED20B40A0C00117123 /* ZHViewModelNavigationImpl.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -190,6 +211,7 @@
 		EB564AE520A42C5700CB54AE /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EB96DEC220B6A46B00C24117 /* Animation */,
 				EB564AFF20A42FC900CB54AE /* Request */,
 			);
 			path = Tools;
@@ -232,6 +254,8 @@
 		EB564AEA20A42E1700CB54AE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EB33D0E820B4055000117123 /* ZHLoginViewModel.h */,
+				EB33D0E920B4055000117123 /* ZHLoginViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -279,6 +303,17 @@
 			children = (
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		EB96DEC220B6A46B00C24117 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				EB96DEC320B6A4F500C24117 /* ZHTransitionFromVCToVC.h */,
+				EB96DEC420B6A4F500C24117 /* ZHTransitionFromVCToVC.m */,
+				EB96DEC620B6B7E500C24117 /* ZHNavigationControllerDelegate.h */,
+				EB96DEC720B6B7E500C24117 /* ZHNavigationControllerDelegate.m */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,12 +446,17 @@
 			files = (
 				EB564AFE20A42F7800CB54AE /* ZHBaseNavigationController.m in Sources */,
 				EB564AF520A42F1700CB54AE /* ZHBaseModel.m in Sources */,
+				EB33D0E720B4052800117123 /* ZHBaseViewModel.m in Sources */,
 				EB564AFB20A42F4C00CB54AE /* ZHBaseCollectionViewCell.m in Sources */,
 				EB564AD820A4248A00CB54AE /* main.m in Sources */,
+				EB96DEC820B6B7E500C24117 /* ZHNavigationControllerDelegate.m in Sources */,
 				EB564AEF20A42ED300CB54AE /* ZHBaseViewController.m in Sources */,
 				EB33D0DF20B3F27B00117123 /* ZHBaseTabBarController.m in Sources */,
 				EB564ACA20A4248800CB54AE /* AppDelegate.m in Sources */,
+				EB33D0EA20B4055000117123 /* ZHLoginViewModel.m in Sources */,
+				EB96DEC520B6A4F500C24117 /* ZHTransitionFromVCToVC.m in Sources */,
 				EB564AF820A42F3000CB54AE /* ZHBaseTableViewCell.m in Sources */,
+				EB33D0EE20B40A0C00117123 /* ZHViewModelNavigationImpl.m in Sources */,
 				EB33D0E320B3F37000117123 /* ZHLoginViewController.m in Sources */,
 				EB564AF220A42EF200CB54AE /* ZHBaseView.m in Sources */,
 			);

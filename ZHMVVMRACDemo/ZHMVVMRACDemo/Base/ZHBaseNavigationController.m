@@ -7,8 +7,10 @@
 //
 
 #import "ZHBaseNavigationController.h"
+#import "ZHBaseViewController.h"
 
-@interface ZHBaseNavigationController ()
+
+@interface ZHBaseNavigationController ()<UINavigationControllerDelegate>
 
 @end
 
@@ -16,8 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self resetNavi];
+    self.delegate = self;
+    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
     // Do any additional setup after loading the view.
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
